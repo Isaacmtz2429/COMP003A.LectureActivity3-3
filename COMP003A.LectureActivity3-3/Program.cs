@@ -65,7 +65,7 @@ namespace COMP003A.LectureActivity3_3
             }
 
             // Display output
-            Console.Write("\nOutput");
+            Console.WriteLine("\nOutput:");
             // Iterate through the range of numbers
             for (int i = 1; i <= range; i++)
             {
@@ -88,7 +88,7 @@ namespace COMP003A.LectureActivity3_3
             }
 
             // Prompt the user to restart the program
-            Console.Write("Enter 'restart' to try again or any other key to exit");
+            Console.Write("Enter 'restart' to try again or any other key to exit: ");
             // Convert the reponse to lovwercase to make it case-insensitive
             string restart = Console.ReadLine().ToLower();
 
