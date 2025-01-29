@@ -56,7 +56,7 @@ namespace COMP003A.LectureActivity3_3
             // Initialize the termination number to 0 
             int terminateNumber = 0;
             // Check if the user wants to terminate the loop
-            if(terminateResponse == "yes")
+            if (terminateResponse == "yes")
             {
                 // Prompt the user to enter the termination number
                 Console.Write("Enter the termination number: ");
@@ -100,12 +100,14 @@ namespace COMP003A.LectureActivity3_3
             }
             else
             {
-            // Terminate the program
+                // Terminate the program
+                System.Environment.Exit(0);
+            }
             restart:
                 // Display a message and restart the program
                 Console.WriteLine("Restarting the program...\n");
                 Main(args);
-            }
+            
         }
     }
 }
